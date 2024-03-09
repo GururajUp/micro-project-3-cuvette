@@ -1,0 +1,59 @@
+.class1{
+    position: fixed;
+    left: 100px;
+    padding: 100px;
+   background-color: grey;
+}
+button{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    margin-top: 20px;
+    font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+border-radius: 10px;
+
+}
+.class3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; 
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.main{
+    background-color:#252D44;
+    width: 550px; 
+}
+.class2{
+    width: 550px;
+    height: 50px;
+    background-color: #181F32;
+    color: white;
+    font-size: 25px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+}
+.class5{
+    width: 240px;
+    margin: 20px;
+    background: #647299;
+    color: white;
+}
+.class6{
+    width: 240px;
+    background: #D13F30;
+    color: white;
+}
+button:hover{
+    background-color: grey;
+}
+button:active{
+    bbackground-color: hsl(0, 0%, 70%);
+}
